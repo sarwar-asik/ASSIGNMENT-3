@@ -12,109 +12,220 @@
 
 
 <body>
-    <!-- for navbar -->
+    <!-- for navbar and curousol-->
     <header class="">
-    <nav class="navbar navbar-expand-lg fixed-top bg-light justify-content-between mb-5">
-        <div class="container-fluid">
-            <a class="navbar-brand text-danger fs-2" href="#">SH Learning Point</a>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light justify-content-between mb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger fs-2" href="#">SH Learning Point</a>
 
-
-            <ul>
-                <button class="btn border-primary text-primary 	d-none d-md-block d-lg-none ms-5  "
-                    type="submit">Subscrive</button>
-            </ul>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Detail</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Success</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active">Register</a>
-                    </li>
-                </ul>
 
                 <ul>
-                    <button class="btn border-primary text-primary d-lg-block d-md-none"
+                    <button class="btn border-primary text-primary 	d-none d-md-block d-lg-none ms-5  "
                         type="submit">Subscrive</button>
                 </ul>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Detail</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active">Register</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <button class="btn border-primary text-primary d-lg-block d-md-none"
+                            type="submit">Subscrive</button>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- for caurosel -->
+        <div class="container m-5 p-3">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                <!-- img-1 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
+                            <p class="text-light">You can confidence on our couse . Because you try to best support to
+                                our
+                                student.you can scroll our our site</p>
+
+                            <button type="btn" class="btn btn-primary p-2">GET START</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="..." style="width:px;height:">
+                        <div class="carousel-caption">
+                            <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
+                            <p class="text-light">You can confidence on our couse . Because you try to best support to
+                                our
+                                student.you can scroll our our site</p>
+
+                            <button type="btn" class="btn btn-primary p-2">GET START</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
+                            <p class="text-light">You can confidence on our couse . Because you try to best support to
+                                our
+                                student.you can scroll our our site</p>
+                            <button type="btn" class="btn btn-primary p-2">GET START</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-    </nav>
-    
-              <!-- for caurosel -->
-    <div class="container m-5 p-3">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
-            <!-- img-1 -->
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
-                        <p class="text-light">You can confidence on our couse . Because you try to best support to our
-                            student.you can scroll our our site</p>
-                    </div>
-                </div>
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
-                        <p class="text-light">You can confidence on our couse . Because you try to best support to our
-                            student.you can scroll our our site</p>
-                    </div>
-                </div>
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
-                        <p class="text-light">You can confidence on our couse . Because you try to best support to our
-                            student.you can scroll our our site</p>
-                    </div>
-                </div>
-               
+    </header>
 
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <!-- for text -->
+    <div class="text-center m-5">
+        <h1>Discover Our Popular<br>
+            Courses</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable<br>content of a page when
+            looking at its layout
+        </p>
     </div>
 
-    
-    </header>
-    
+
+    <section>
+
+        <div class="container ">
+            <div class="row g-5 m-5">
+                <!-- no-1 -->
+                <div
+                    class=" p-0 col-12 col-md-12 col-lg-6 d-flex flex-column flex-lg-row flex-md-row flex-sm-column align-items-center bg-light">
+                    <img class="img-fluid w-100 p-4" src="./images/course/course-1.png" alt="">
+                    <div class="m-5">
+                        <h4>Fundamental Of UI/UX Design
+                        </h4>
+                        <p>Fundamental Of UI/UX Design is for you.
+                            Our course is perfect for you if you believe us.
+                            you are promised with our commitment.
+
+                        </p>
+                        <h4 class="text-primary">price:20$
+                        </h4>
+                    </div>
+                </div>
+                <!-- no--2 -->
+                <div
+                    class="col-12 col-md-12 col-lg-6 p-0 d-flex flex-column flex-lg-row flex-md-row flex-sm-column  align-items-center bg-light border rounded">
+                    <img class="img-fluid w-100 p-4" src="./images/course/course-2.png" alt="">
+                    <div class="m-5">
+                        <h4>Javascript Basic to Advance
+                        </h4>
+                        <p>Java script Design is for you.
+                            Our course is perfect for you if you stay us.
+                            you are promised with our commitment. </p>
+                        <h4 class="text-primary">price:100$
+                        </h4>
+                    </div>
+                </div>
+                <div
+                    class="m- p-0 col-12 col-md-12 col-lg-6 d-flex flex-column flex-lg-row flex-md-row flex-sm-column  align-items-center bg-light">
+                    <img class="img-fluid w-100 p-4" src="./images/course/course-3.png" alt="">
+                    <div class="m-5">
+                        <h4>Full Stack Web-developing course
+                        </h4>
+                        <p>Full Stack Web develoving course.This course is perfect for you if you stay us.
+                            you are promised with our commitment.</p>
+                        <h4 class="text-primary">price:120$
+                        </h4>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-12 col-lg-6 p-0 d-flex flex-column flex-lg-row flex-md-row flex-sm-column  align-items-center bg-light border rounded">
+                    <img class="img-fluid w-100 p-4" src="./images/course/course-4.png" alt="">
+                    <div class="m-4">
+                        <h4>Digital Marketing Course.
+                        </h4>
+                        <p>Digital Marketing course is perfect for you if you stay us.
+                            you are promised with our commitment.</p>
+                        <h4 class="text-primary">price:50$
+                        </h4>
+                    </div>
+                </div>
+                <div
+                    class="m- p-0 col-12 col-md-12 col-lg-6 d-flex flex-column flex-lg-row flex-md-row flex-sm-column  align-items-center bg-light">
+                    <img class="img-fluid w-100 p-4" src="./images/course/course-5.png" alt="">
+                    <div class="m-5">
+                        <h4>Video Editing Course
+                        </h4>
+                        <p>This modern age you have to expert with video editing for enjoy your life</p>
+                        <h4 class="text-primary">price:only-10$
+                        </h4>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-12 col-lg-6 p-0 d-flex flex-column flex-lg-row flex-md-row flex-sm-column  align-items-center bg-light border rounded">
+                    <img class="img-fluid w-100 p-4" src="./images/course/course-6.png" alt="">
+                    <div class="m-5">
+                        <h4>Grapics Design Full Course
+                        </h4>
+                        <p>Grapics Design Full Course is the best course this age because it has so much demand in
+                            marketplace</p>
+                        <h4 class="text-primary">price:20$
+                        </h4>
+                    </div>
+                </div>
 
 
 
-   
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
 
 
 
