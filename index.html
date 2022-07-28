@@ -25,9 +25,8 @@
                 <a class="navbar-brand text-danger fs-2" href="#">SH Learning Point</a>
 
 
-                <ul>
-                    <button class="btn border-primary text-primary 	d-none d-md-block d-lg-none ms-5  "
-                        type="submit">Subscribe</button>
+                <ul class="d-none d-md-block d-lg-none ">
+                    <button class="btn border-primary text-primary" type="submit">Subscribe</button>
                 </ul>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -69,36 +68,59 @@
         </nav>
 
         <!-- for caurosel -->
-        <div class="container m-5 p-3">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
-                <!-- img-1 -->
-                <div class="carousel-inner">
+
+
+        <section class="m-5">
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <!-- <div class="carousel-inner"> -->
+
+                <div class="carousel-inner" role="listbox" style="max-width:1320px; max-height:600px !important;">
+
+
+                    <!-- item-1 -->
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption ">
+                        <!-- cap-1 -->
+                        <div
+                            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 ">
+
                             <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
                             <p class="text-light">You can confidence on our couse . Because you try to best support to
                                 our
                                 student.you can scroll our our site</p>
-
                             <button type="btn" class="btn btn-primary p-2">GET START</button>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="..." style="width:px;height:">
-                        <div class="carousel-caption">
+                    <!-- item-2 -->
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <!-- cap-2 -->
+                        <div
+                            class="carousel-caption  d-flex flex-column justify-content-center align-items-center h-100 ">
                             <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
                             <p class="text-light">You can confidence on our couse . Because you try to best support to
                                 our
                                 student.you can scroll our our site</p>
-
                             <button type="btn" class="btn btn-primary p-2">GET START</button>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <!-- item-3 -->
+                    <div class="carousel-item">
                         <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
+
+                        <!-- /cap-3 -->
+                        <div
+                            class="carousel-caption  d-flex flex-column justify-content-center align-items-center h-100 ">
                             <h1 class="text-white">GET START DIGITAL <br> LEARNING</h1>
                             <p class="text-light">You can confidence on our couse . Because you try to best support to
                                 our
@@ -106,10 +128,7 @@
                             <button type="btn" class="btn btn-primary p-2">GET START</button>
                         </div>
                     </div>
-
-
                 </div>
-
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -121,9 +140,14 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
+
+
+        </section>
+
+
 
     </header>
+
 
 
 
@@ -441,11 +465,11 @@
 
                     <div class="d-flex align-items-center ">
 
-                        <img class="img-fluid w-25 p-1 me-3" src="./images/student/student-5.png" alt="">
+                        <img class="img-fluid w-25 p-1 me-3" src="./images/student/student-6.png" alt="">
 
                         <span>
-                            <h3>Nahidul Islam</h3>
-                            <p>Digital Market</p>
+                            <h3>Miss Tinkhu</h3>
+                            <p>Grapics Desiner</p>
                         </span>
                     </div>
 
@@ -607,13 +631,13 @@
             <!-- Section: Social media -->
             <section class="mb-4">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/MdShAsik.asik.7"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
                 <!-- Messanger -->
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
                         class="fa-brands fa-facebook-messenger"></i></a>
                 <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com" role="button"><i
                         class="fab fa-google"></i></a>
                 <!-- Instagram -->
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
@@ -622,8 +646,8 @@
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
                         class="fab fa-linkedin-in"></i></a>
                 <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/sarwar-asik/ASSIGNMENT-3"
+                    role="button"><i class="fab fa-github"></i></a>
             </section>
 
         </div>
